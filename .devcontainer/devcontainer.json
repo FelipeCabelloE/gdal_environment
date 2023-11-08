@@ -1,0 +1,10 @@
+{
+    "name": "GDAL Dev Container",
+    "dockerFile": "Dockerfile",
+    "context": "..",
+    "runArgs": [ "-u", "vscode", "-e", "PYTHONUNBUFFERED=1"],
+    "settings": { 
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": ["ms-python.python"]
+}
