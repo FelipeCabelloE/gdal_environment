@@ -5,8 +5,8 @@ FROM ghcr.io/osgeo/gdal:alpine-small-3.8.0
 # WORKDIR /app
 
 # # Add metadata to the image to describe that the container is used for
-# LABEL org.opencontainers.image.title="GDAL Dev Container" \
-#       org.opencontainers.image.description="Development container for GDAL"
+LABEL org.opencontainers.image.title="GDAL Dev Container" \
+      org.opencontainers.image.description="Development container for GDAL"
 
 # # Install any needed packages specified in requirements.txt
 # # COPY requirements.txt /app
